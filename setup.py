@@ -9,7 +9,7 @@ if sys.version_info < (2, 6) or (3, 0) <= sys.version_info < (3, 3):
     sys.exit(1)
 
 def get_requires():
-    requires = ['numpy']
+    requires = ['numpy', 'opencv-python']
     if sys.version_info == (2, 6):
         requires += ['argparse']
     return requires
