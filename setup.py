@@ -20,7 +20,7 @@ setup(
     #long_description=open('package-info.rst').read(),
     author='KlucsikKP',
     author_email='klucsik.krisztian@gmail.com',
-    #url='https://github.com/Breakthrough/DVR-Scan',
+    #url='https://github.com/klucsik/ROI-selector',
     license="BSD 2-Clause",
     keywords="video computer-vision analysis",
     install_requires=get_requires(),
